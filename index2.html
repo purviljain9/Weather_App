@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h2 class="heading">
+            WEATHER APP
+        </h2>
+
+        <div class="tab-section">
+            <p class="tab" your-tab>Your Weather</p>
+            <p class="tab" search-tab>Search Weather</p>
+        </div>
+
+        <div class="main-section">
+            <div class="sub-container location-permission-section">
+                <img src="location.png" width="80" height="80" loading="lazy">
+                <h2>Grant Location Access</h2>
+                <p>Allow access to get weather information</p>
+                <button class="access-button">
+                    GRANT ACCESS
+                </button>
+            </div>
+            
+            <form class="search-weather-section">
+                <input placeholder="Search for your City..." class="input-city">
+                <button class="search-butn access-button">
+                    <img src="search.png" width="20" height="20" loading="lazy" class="search-button">
+                </button>
+            </form>
+
+            <div class="sub-container error-page">
+                <img src="not-found.png" class="error-img">
+                <p class="error-text">Error not Found</p>
+            </div>
+
+            <div class="sub-container loading-container">
+                <img src="loading.gif" width="150" height="150">
+                <p>loading...</p>
+            </div>
+
+            <div class="sub-container your-weather-section">
+                <div class="sub-container weather-display">
+                    <div class="city-name-section">
+                        <p class="city-name"></p>
+                        <img src="" class="city-country">
+                    </div>
+    
+                    <p class="weather-condition"></p>
+    
+                    <img class="weather-condition-img">
+    
+                    <h2 class="Temperature-Display"></h2>
+                </div>
+    
+                <div class="last-section">
+                    <div class="info">
+                        <img class="info-image" src="wind.png">
+                        <p class="info-text">WINDSPEED</p>
+                        <p class="info-1-number"></p>
+                    </div>
+    
+                    <div class="info">
+                        <img class="info-image" src="humidity.png">
+                        <p class="info-text">HUMIDITY</p>
+                        <p class="info-2-number"></p>
+                    </div>
+    
+                    <div class="info">
+                        <img class="info-image" src="cloud.png">
+                        <p class="info-text">CLOUDS</p>
+                        <p class="info-3-number"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
