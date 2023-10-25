@@ -8,7 +8,6 @@ Developed a dynamic Weather App using HTML, CSS, and JavaScript, integrated with
 - [Technologies Used](#technologies-used)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## About
 
