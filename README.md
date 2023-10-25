@@ -29,7 +29,7 @@ The Weather App is a user-friendly web application that provides real-time weath
 - HTML
 - CSS
 - JavaScript
-- [Your Weather Data API] - Replace with the API you used (e.g., OpenWeatherMap)
+- Two API's from openweathermap.org
 
 ## Usage
 
